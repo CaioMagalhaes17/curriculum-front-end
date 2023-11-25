@@ -4,7 +4,7 @@ import ProfilePersonalInfos from "./ProfilePersonalInfos";
 export default function MainCard(){
     return (
         <>
-            <section className="main-board">
+            <section className="default-card main-card">
                 <ProfileCover/>
                 <ProfilePersonalInfos/>
             </section>

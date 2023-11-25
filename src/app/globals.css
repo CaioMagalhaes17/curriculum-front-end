@@ -1,14 +1,22 @@
-.main-board{
-    border-radius: 0.8em;
-    background-color: rgb(255, 255, 255);
+.main-card{
     height:400px;
+}
+
+.default-card {
     width:100%;
     display: inline-block;
     box-shadow: 0px 0px 0px 1px rgb(140 140 140/.2);
-    margin-top:50px;
+    margin-bottom:20px;
+    border-radius: 0.8em;
+    background-color: rgb(255, 255, 255);
+}
+
+.about-card{
+    height:200px;
 }
 
 .content{
+    margin-top: 50px;
     width: 800px;
     height: 100%;
     text-align: center;
@@ -34,6 +42,8 @@ body {
 
 .display-flex{
     display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .profile-image-div{
@@ -91,8 +101,6 @@ body {
 }
 
 .each-work{
-    font-weight: 600;
-    font-family: system-ui;
     margin-bottom:10px;
 }
 
@@ -102,7 +110,8 @@ body {
 }
 
 .work-description{
-
+    font-weight: 600;
+    font-family: system-ui;
 }
 
 .edit-work{
@@ -114,4 +123,33 @@ body {
     padding: 0;
     cursor: pointer;
     align-items: center;
+}
+
+.about-title{
+    font-weight: 600;
+    
+}
+
+.about-content{
+    font-family: system-ui;
+    margin-left: 40px;
+}
+
+.competency-container{
+    width:90%;
+    margin-top:15px;
+    height:65px;
+    display: inline-block;
+    box-shadow: 0px 0px 0px 1px rgb(140 140 140/.2);
+    border-radius: 0.8em;
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui;
+}
+
+.competency-desc{
+    font-weight: 300;
+}
+
+.competency-infos{
+    margin-top: 5px;
 }
