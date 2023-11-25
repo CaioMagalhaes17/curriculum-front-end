@@ -1,9 +1,12 @@
-export default function Home() {
+import MainCard from "./components/MainCard/MainCard";
+import "./globals.css";
+
+export default function Page() {
   return (
     <>
-      <section className="main-board">
-
-      </section>
+      <div className="content">
+        <MainCard/>
+      </div>
     </>
   )
 }

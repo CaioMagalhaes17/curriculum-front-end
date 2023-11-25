@@ -1,0 +1,117 @@
+.main-board{
+    border-radius: 0.8em;
+    background-color: rgb(255, 255, 255);
+    height:400px;
+    width:100%;
+    display: inline-block;
+    box-shadow: 0px 0px 0px 1px rgb(140 140 140/.2);
+    margin-top:50px;
+}
+
+.content{
+    width: 800px;
+    height: 100%;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.background-profile-cover{
+    min-height:200px;
+    max-height:200px;
+    background-color:red;
+}
+
+.cover-img{
+    
+}
+
+.display-flex{
+    display: flex !important;
+}
+
+.profile-image-div{
+    margin-top: -112px;
+    margin-left: 20px;
+    z-index: 4;
+    text-align: left!important;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-personal-infos{
+    text-align: left;
+    margin-left:20px;
+    line-height: 1.9;
+    position:relative;
+    display: flex;
+}
+
+.profile-name{
+    font-family: system-ui;
+    font-weight: 600;
+    margin: 0;
+}
+
+.profile-bio{
+    font-family: system-ui;
+    font-weight: 400;
+    margin: 0;
+    
+}
+
+.profile-location{
+    font-family: system-ui;
+    margin: 0;
+    font-size: 15px;
+    color: #00000099;
+}
+
+.current-works{
+    position: absolute;
+    list-style: none;
+    width: 232px;
+}
+
+.current-works-div{
+    margin-left:150px;
+}
+
+.each-work{
+    font-weight: 600;
+    font-family: system-ui;
+    margin-bottom:10px;
+}
+
+.img-work{
+    width:25px;
+    height:25px;
+}
+
+.work-description{
+
+}
+
+.edit-work{
+    display: flex;
+    width: 100%;
+    text-align: left!important;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+}
