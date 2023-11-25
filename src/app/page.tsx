@@ -1,4 +1,5 @@
 import AboutCard from "./components/AboutCard/AboutCard";
+import ExperiencesCard from "./components/ExperiencesCard/ExperiencesCard";
 import MainCard from "./components/MainCard/MainCard";
 import "./globals.css";
 
@@ -8,6 +9,7 @@ export default function Page() {
       <div className="content">
         <MainCard/>
         <AboutCard/>
+        <ExperiencesCard/>
       </div>
     </>
   )

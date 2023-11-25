@@ -15,6 +15,10 @@
     height:200px;
 }
 
+.experiences-card{
+    height: 600px;
+}
+
 .content{
     margin-top: 50px;
     width: 800px;
@@ -28,6 +32,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: rgb(234, 234, 234);
 }
 
 .background-profile-cover{
@@ -68,6 +73,10 @@ body {
     line-height: 1.9;
     position:relative;
     display: flex;
+}
+
+.each-experience{
+    line-height: 1.5;
 }
 
 .profile-name{
@@ -152,4 +161,86 @@ body {
 
 .competency-infos{
     margin-top: 5px;
+}
+
+.experiences-content{
+    font-family: system-ui;
+    margin-left: 40px;
+}
+
+.experience-company-infos{
+    font-family: system-ui;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.experience-company-time{
+    font-weight: 400;
+}
+
+.experience-company-location{
+    font-weight: 200;
+}
+
+.each-job-work-modality{
+    font-weight: 400;
+}
+
+.experiences-title{
+    font-weight:600;
+}
+
+.all-experiences-company{
+    list-style-type: none;
+}
+
+.all-experiences-job{
+    list-style-type: none;
+}
+
+.each-job{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.each-job-dot{
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: #b8b8b8;
+    top: 2rem;
+    left: -3.6rem;
+    margin-bottom: -0.8rem;
+}
+
+.each-job-desc{
+    font-family: system-ui;
+    margin-top: 25px;
+    font-weight:600;
+    padding: 0;
+}
+
+.each-job-work-modality{
+    
+}
+
+.each-job-time{
+    font-weight:200;
+}
+
+.each-experience{
+    display: flex;
+}
+
+.img-company-experience{
+    width:50px;
+    height:50px;
+}
+
+.each-job-work-desc{
+    font-weight:300;
 }
