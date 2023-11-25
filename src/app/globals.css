@@ -168,6 +168,11 @@ body {
     margin-left: 40px;
 }
 
+.academics-content{
+    font-family: system-ui;
+    margin-left: 40px;
+}
+
 .experience-company-infos{
     font-family: system-ui;
     font-weight: 600;
@@ -243,4 +248,8 @@ body {
 
 .each-job-work-desc{
     font-weight:300;
+}
+
+.academics-card{
+    height: 250px;
 }
